@@ -98,12 +98,37 @@
     color:var(--color-black);
 }
 .button-email button{
+    content:"kauansantosdesouza45@gmail.com";
     cursor: pointer;
     margin-top: -4rem;
     margin-left: 57.8rem;
     width: 42.5rem;
     padding: 15px 0 0 20px ;
     font-size: 20px;
+    
+}
+.button-email button::before{
+    content: "Clique para copiar!";
+    position: absolute;
+    top: 58.1%;
+    left: 74.2%;
+    height: 1.8rem;
+    width: 41rem;
+    max-width: 144rem;
+    transform: translate(-50%, -50%) translateY(-100%);
+    background-color: var(--color-success-dark);
+    color: white;
+    padding: 15px 10px;
+    border-radius: 4px;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(23, 127, 23, 0.7);
+    font-weight: bold;
+}
+.button-email button:hover::before {
+    opacity: 1;
+    background-color: rgba(23, 127, 23, 0.7);
     
 }
 .icon-mail{
@@ -168,8 +193,3 @@
     animation: gira2 10s linear infinite;   
  }
 
-.success {
-    color: green;
-    margin-top: 10px;
-    font-size: 14px;
-  }

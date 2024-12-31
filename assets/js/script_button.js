@@ -5,7 +5,7 @@ async function copyEmail() {
       await navigator.clipboard.writeText(email);
       
       const successMessage = document.getElementById("successMessage");
-      successMessage.style.display = "block";
+      alert('E-mail copiado com sucesso!');
 
       setTimeout(() => {
         successMessage.style.display = "none";
