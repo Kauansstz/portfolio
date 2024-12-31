@@ -51,7 +51,7 @@
 
 .shortcuts{
     /* display: flex; */
-    background: var(--color-black-blue);
+    background: var(--color-light-blue);
     /* justify-content: center; */
     padding: 10rem;
     text-align: center;
@@ -60,7 +60,7 @@
     max-width: 144rem;
 }
 .shortcuts{
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: 3rem;
     font-weight: bold;
 }
@@ -87,22 +87,35 @@
     justify-content: right;
 }
 
-.button-email button{
+
+.button-email button, .icon-mail{
     display: flex;
-    cursor: pointer;
-    margin-top: 3px;
-    margin-left: 60rem;
-    width: 40rem;
-    max-width: 144rem;
-    color:var(--color-white);
-    padding: 15px 0 0 20px ;
-    border: 2px solid var(--color-gray-4);
+    font-weight: bold;
+    border: 2px solid var(--color-gray-2);
     background: none;
     height: 4rem;
-    font-size: 20px;
-    font-weight: bold;
+    max-width: 144rem;
+    color:var(--color-black);
 }
-
+.button-email button{
+    cursor: pointer;
+    margin-top: -4rem;
+    margin-left: 57.8rem;
+    width: 40rem;
+    padding: 15px 0 0 20px ;
+    font-size: 20px;
+    
+}
+.icon-mail{
+    margin-top: 3px;
+    margin-left: 53rem;
+    width: 5rem;
+    padding: 12px 0 0 20px ;
+    font-size: 2rem;
+}
+.icon-mail i{
+    text-align: center;
+}
 
 /* Engrenagens rotatorias */
 .box{
@@ -131,15 +144,15 @@
  }
 
 .box-2{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     background: url(img/engrenagem.png) no-repeat;
     background-size: contain;
 }
 .engrenagens-2{
     position: absolute;
-    margin-top:5px;
-    margin-left:215px;
+    margin-top:20px;
+    margin-left:170px;
 }
 
 @keyframes gira2 {
