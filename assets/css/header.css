@@ -94,7 +94,6 @@
     border: 2px solid var(--color-gray-2);
     background: none;
     height: 4rem;
-    max-width: 144rem;
     color:var(--color-black);
 }
 .button-email button{
@@ -114,7 +113,6 @@
     left: 74.2%;
     height: 1.8rem;
     width: 41rem;
-    max-width: 144rem;
     transform: translate(-50%, -50%) translateY(-100%);
     background-color: var(--color-success-dark);
     color: white;
@@ -131,6 +129,18 @@
     background-color: rgba(23, 127, 23, 0.7);
     
 }
+.message-success{
+    margin-left: 40.7rem;
+}
+
+.success{
+    justify-content: center;
+    color: var(--color-success-dark);
+    margin-top: 10px;
+    font-size: 20px;
+    width: 25rem;
+  }
+
 .icon-mail{
     margin-top: 3px;
     margin-left: 53rem;

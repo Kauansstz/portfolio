@@ -63,3 +63,8 @@ a,
 span{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.container{
+    max-width: 144rem;
+}

@@ -5,11 +5,11 @@ async function copyEmail() {
       await navigator.clipboard.writeText(email);
       
       const successMessage = document.getElementById("successMessage");
-      alert('E-mail copiado com sucesso!');
+      successMessage.style.display="flex";
 
       setTimeout(() => {
         successMessage.style.display = "none";
-      }, 300);
+      }, 600);
     } catch (err) {
       alert("Erro ao copiar o e-mail: " + err);
     }
