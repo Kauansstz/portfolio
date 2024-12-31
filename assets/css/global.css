@@ -64,6 +64,9 @@ span{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: var(--color-light-blue);
+}
 
 .container{
     max-width: 144rem;
