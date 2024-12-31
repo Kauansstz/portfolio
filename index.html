@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/main/about_me.css">
+    <script src="assets/js/script_button.js"></script>
     <link rel="stylesheet" href="assets/css/main/identification.css">
     <link rel="stylesheet" href="assets/css/main/skills.css">
     <link rel="stylesheet" href="assets/css/links.css">
@@ -50,7 +51,8 @@
             </div>
             <div class="button-email">
                 <span class="icon-mail"><i class="bi bi-envelope"></i></span>
-                <button>kauansantosdesouza45@gmail.com</button>
+                <button onclick="copyEmail()">kauansantosdesouza45@gmail.com</button>
+                <p id="successMessage" class="success" style="display: none;">E-mail copiado com sucesso!</p>
             </div>
         </div>
     </header>

@@ -167,3 +167,9 @@
 .horario-2{
     animation: gira2 10s linear infinite;   
  }
+
+.success {
+    color: green;
+    margin-top: 10px;
+    font-size: 14px;
+  }
