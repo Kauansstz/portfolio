@@ -75,3 +75,13 @@
     font-size: 15px;
     font-weight: bolder;
 }
+
+.apresentacao{
+    display: grid;
+    justify-content: center;
+}
+
+.saudações{
+    color: var(--color-gray-5);
+    font-weight: bold;
+}
